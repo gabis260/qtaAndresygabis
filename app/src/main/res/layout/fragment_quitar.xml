@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quitar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/cuadrado_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFDDDDDD"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Quitar Fragmento"
+        android:textStyle="bold"
+        android:backgroundTint="#5AE4A8"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:text="Te voy a ayudar a solucionar el problema quitar el fragmento. \n\n 1. Ingresa una cadena de caracteres en la que por lo menos existe 2 veces la letra h.\n \n2. Eliminare de esa cadena la primera y la última aparición de la letra h, así como todos los caracteres entre ellas.\n\n 3.Luego imprimiré la nueva cadena en pantalla." />
+
+
+
+</FrameLayout>

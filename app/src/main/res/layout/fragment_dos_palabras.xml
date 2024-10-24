@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DosPalabras">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/cuadrado_texto"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#FFDDDDDD"
+        android:backgroundTint="#5AE4A8"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Dos palabras"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:text="Te voy a ayudar a solucionar el problema de las 2 palabras.\n\n 1.Ingresa una cadena de caracteres que contenga solo 2 palabras separadas por un espacio.\n\n 3.Imprimiré una nueva cadena con las posiciones de la primera y segunda palabra intercambiadas (la segunda palabra se imprime primero)." />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/button_dospalabras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solucionar"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="100dp"/>
+
+
+</FrameLayout>
